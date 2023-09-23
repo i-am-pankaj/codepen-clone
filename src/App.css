@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.CodeMirror{
+  height: 340px !important;
+  color: #fff;
+}
+
+.CodeMirror-gutters{
+  background: #1d1e22 !important;
+}
+
+.CodeMirror-scroll{
+  background: #1d1e22;
 }
