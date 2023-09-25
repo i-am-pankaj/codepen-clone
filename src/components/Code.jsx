@@ -15,7 +15,7 @@ export default function Code () {
     const {html,setHtml,css,setCss,js,setJs} = useContext(DataContext);
 
     return(
-        <Container>
+        <Container sx={{ flexDirection: {xs: "column" , md: "row"}}}>
             <Editor
                 heading="HTML"
                 icon="/"
